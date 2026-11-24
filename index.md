@@ -4,7 +4,7 @@ title: "Privacy Policy — Meet Light for SwitchBot"
 
 # プライバシーポリシー — Meet Light for SwitchBot
 
-最終更新日: 2026年7月20日
+最終更新日: 2026年11月24日
 
 「Meet Light for SwitchBot」（以下「本拡張機能」）は、利用者のプライバシーを最優先に設計されています。本拡張機能は開発者側のサーバーを一切持たず、利用者のデータを収集・送信・販売しません。
 
@@ -15,7 +15,7 @@ title: "Privacy Policy — Meet Light for SwitchBot"
 **端末ローカル（`chrome.storage.local` / `chrome.storage.session`）に保存されるもの:**
 
 - SwitchBot APIのトークンおよびシークレット（利用者が設定画面で入力したもの）
-- 選択した電球のデバイスIDと名前
+- 追加したライト（電球・テープライト等）のデバイスIDと名前
 - 明るさの設定値
 - 会議中かどうかのフラグ（ブラウザ終了時に消去されるセッション領域）
 
@@ -32,7 +32,7 @@ Chrome同期領域のデータは、利用者がChromeにGoogleアカウント�
 
 | 通信先 | 目的 | 送信される内容 |
 |---|---|---|
-| SwitchBot API（api.switch-bot.com） | 電球の操作・デバイス一覧の取得 | 利用者自身のSwitchBotトークンによる認証情報と、点灯色・明るさ等の操作コマンド |
+| SwitchBot API（api.switch-bot.com） | ライトの操作・デバイス一覧の取得 | 利用者自身のSwitchBotトークンによる認証情報と、点灯色・明るさ等の操作コマンド |
 | Gumroad License API（api.gumroad.com） | ライセンスキーの有効性確認 | 商品IDとライセンスキーのみ |
 
 上記以外のサーバーへの通信は一切行いません。アクセス解析・広告・トラッキングの類も含まれていません。
@@ -67,7 +67,7 @@ Chrome同期領域のデータは、利用者がChromeにGoogleアカウント�
 
 # Privacy Policy — Meet Light for SwitchBot (English)
 
-Last updated: July 20, 2026
+Last updated: November 24, 2026
 
 "Meet Light for SwitchBot" (the "Extension") is designed with your privacy as the top priority. The Extension operates without any developer-side server and does not collect, transmit, or sell any user data.
 
@@ -78,7 +78,7 @@ All data listed below is stored **only in your browser's storage**. No third par
 **Stored locally on your device (`chrome.storage.local` / `chrome.storage.session`):**
 
 - Your SwitchBot API token and secret (entered by you on the settings page)
-- The device ID and name of the bulb you selected
+- The device IDs and names of the lights (bulbs, strip lights, etc.) you added
 - Brightness setting
 - An in-meeting flag (kept in session storage, cleared when the browser closes)
 
@@ -95,7 +95,7 @@ The Extension communicates with only the following two endpoints:
 
 | Endpoint | Purpose | Data sent |
 |---|---|---|
-| SwitchBot API (api.switch-bot.com) | Controlling the bulb and listing devices | Authentication using your own SwitchBot token, and commands such as color and brightness |
+| SwitchBot API (api.switch-bot.com) | Controlling your lights and listing devices | Authentication using your own SwitchBot token, and commands such as color and brightness |
 | Gumroad License API (api.gumroad.com) | Verifying your license key | The product ID and your license key only |
 
 No other servers are contacted. The Extension contains no analytics, advertising, or tracking of any kind.
